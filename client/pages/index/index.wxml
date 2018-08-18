@@ -1,39 +1,20 @@
-<!--index.wxml-->
-<view class="container">
-    <!-- 用户登录测试 -->
-    <view class="userinfo">
-        <image
-            class="userinfo-avatar"
-            src="{{logged ? userInfo.avatarUrl : './user-unlogin.png'}}"
-            background-size="cover"
-        ></image>
-        <view>
-            <button class="userinfo-nickname" wx:if="{{!logged}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">点击测试登录接口</button>
-            <text class="userinfo-nickname" wx:else>{{userInfo.nickName}}</text>
-        </view>
-    </view>
+<image  class='top-iamge' src='/images/p1461851991.jpg'></image>
 
+<view class='content'>
+  <view class='title'>{{title}}</view>
+  <view class='recommend'>
+    <image class='reference-profile' src='/pages/index/user-unlogin.png'></image>
+    <view class='reference-content'><p style='font-size:35rpx'>康哥</p>给你推荐了一部电影</view>
+  </view>
+</view>
 
-    <!-- 上传图片测试 -->
-    <view class="uploader">
-        <view class="uploader-text" bindtap="doUpload">
-            <text>上传图片</text>
-        </view>
-        <view class="uploader-container" wx:if="{{imgUrl}}">
-            <image
-                class="uploader-image"
-                src="{{imgUrl}}"
-                mode="aspectFit"
-                bindtap="previewImg"
-            ></image>
-        </view>
-    </view>
-
-
-    <!-- 上传图片测试 -->
-    <view class="uploader">
-        <navigator url="../addCgi/addCgi" open-type="navigate" class="uploader-text">
-            <text>快速增加 CGI</text>
-        </navigator>
-    </view>
+<view class='bottom-tab'>
+  <navigator class='bottom-hot' url='/pages/hotrank/hotrank'>
+    <image class='bottom-icon' src='/images/icon/rise.png'></image>
+    <view class='bottom-text'>热门</view>
+  </navigator>
+  <navigator class='bottom-my' url='/pages/my/my'>
+    <image class='bottom-icon' src='/images/icon/smile.png'></image>
+    <view class='bottom-text'>我的</view>
+  </navigator>
 </view>
