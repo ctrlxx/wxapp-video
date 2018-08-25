@@ -12,5 +12,31 @@
 	},
 	"appid": "wxd9ae4d926f15bee7",
 	"projectname": "wxapp-video",
-	"condition": {}
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "hotrank",
+					"pathName": "pages/hotrank/hotrank"
+				}
+			]
+		}
+	}
 }
