@@ -1,2 +1,11 @@
-<!--pages/hotrank/hotrank.wxml-->
-<text>pages/hotrank/hotrank.wxml</text>
+<view wx:for="{{hotdata}}" class='hotlist'>
+  <image src='{{item.image}}' class='hot-image'></image>
+  <view class='hot-content'>
+    <view class='hot-title'>
+      {{item.title}}
+    </view>
+    <view class='hot-category'>
+      {{item.category}}
+    </view>
+  </view>
+</view>

@@ -5,7 +5,15 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    hotdata:{
+      1:
+        { title: '机器人总动员', category: '爱情 / 科幻 / 动画 / 冒险', image: '/images/p1461851991.jpg'},
+      2:
+        { title: '机器人总动员', category: '爱情 / 科幻 / 动画 / 冒险', image: '/images/p1461851991.jpg'},
+      3:
+        { title: '机器人总动员', category: '爱情 / 科幻 / 动画 / 冒险', image: '/images/p1461851991.jpg'},
+      
+    }
   },
 
   /**

@@ -1,1 +1,4 @@
 /* pages/hotrank/hotrank.wxss */
+.hotlist{
+  display: flex;
+}
