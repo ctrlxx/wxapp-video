@@ -21,7 +21,24 @@ var config = {
         tunnelUrl: `${host}/weapp/tunnel`,
 
         // 上传图片接口
-        uploadUrl: `${host}/weapp/upload`
+        uploadUrl: `${host}/weapp/upload`,
+
+        // 拉取用户信息
+        user: `${host}/weapp/user`,
+
+        randomUrl: `${host}/weapp/random`,
+        movieDetailUrl: `${host}/weapp/movies/`,
+        moviesUrl: `${host}/weapp/movies`,
+
+        addCommetUrl: `${host}/weapp/comments`,
+
+        getComments: movie_id => `${host}/weapp/movies/${movie_id}/comments`,
+
+        getComment: comment_id => `${host}/weapp/comments/${comment_id}`,
+
+        favorite: comment_id => `${host}/weapp/comments/${comment_id}/favorite`,
+
+        getFavorites: () => `${host}/weapp/favorites`
     }
 };
 
