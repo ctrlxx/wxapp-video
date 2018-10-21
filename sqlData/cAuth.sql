@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: 2018-10-20 16:13:36
+-- Generation Time: 2018-10-21 03:49:40
 -- 服务器版本： 5.7.18
 -- PHP Version: 5.6.30
 
@@ -49,7 +49,19 @@ INSERT INTO `comments` (`id`, `movie_id`, `open_id`, `type`, `content`, `create_
 (6, 7, 'oEzcV0cksjpNoPekOfSq2V4wBpEQ', 0, '很有爱的电影', '2018-10-20 23:44:45'),
 (7, 13, 'oEzcV0cksjpNoPekOfSq2V4wBpEQ', 0, '机器人世界', '2018-10-20 23:45:24'),
 (8, 13, 'oEzcV0cksjpNoPekOfSq2V4wBpEQ', 0, '很棒的机器人', '2018-10-20 23:45:46'),
-(9, 9, 'oEzcV0cksjpNoPekOfSq2V4wBpEQ', 1, 'https://douban-movies-1251321471.cos.ap-shanghai.myqcloud.com/1540051010220-Ae1lLPfJK.mp3', '2018-10-20 23:56:58');
+(9, 9, 'oEzcV0cksjpNoPekOfSq2V4wBpEQ', 1, 'https://douban-movies-1251321471.cos.ap-shanghai.myqcloud.com/1540051010220-Ae1lLPfJK.mp3', '2018-10-20 23:56:58'),
+(11, 8, 'oEzcV0cksjpNoPekOfSq2V4wBpEQ', 0, '美丽心灵的心灵', '2018-10-21 10:11:24'),
+(12, 14, 'oEzcV0cksjpNoPekOfSq2V4wBpEQ', 0, '死亡诗社的评论\n', '2018-10-21 10:12:04'),
+(13, 6, 'oEzcV0cksjpNoPekOfSq2V4wBpEQ', 0, '热血警探的评论', '2018-10-21 10:12:38'),
+(14, 5, 'oEzcV0cksjpNoPekOfSq2V4wBpEQ', 0, '海边的曼切斯特评论', '2018-10-21 10:14:22'),
+(15, 10, 'oEzcV0cksjpNoPekOfSq2V4wBpEQ', 0, '肖申克的救赎评论', '2018-10-21 10:22:06'),
+(16, 11, 'oEzcV0cksjpNoPekOfSq2V4wBpEQ', 0, '三傻大闹宝莱坞评论', '2018-10-21 11:09:41'),
+(17, 8, 'oEzcV0cksjpNoPekOfSq2V4wBpEQ', 0, '美丽心灵的评论', '2018-10-21 11:16:41'),
+(18, 8, 'oEzcV0cksjpNoPekOfSq2V4wBpEQ', 0, '美丽心灵的评论2', '2018-10-21 11:17:08'),
+(19, 1, 'oEzcV0cksjpNoPekOfSq2V4wBpEQ', 0, '复仇者联盟评论\n', '2018-10-21 11:20:14'),
+(20, 6, 'oEzcV0cksjpNoPekOfSq2V4wBpEQ', 0, '热血警探评论', '2018-10-21 11:21:03'),
+(21, 14, 'oEzcV0cksjpNoPekOfSq2V4wBpEQ', 0, '死亡诗社评论', '2018-10-21 11:30:49'),
+(22, 14, 'oEzcV0cksjpNoPekOfSq2V4wBpEQ', 0, '死亡诗社评论', '2018-10-21 11:30:51');
 
 -- --------------------------------------------------------
 
@@ -72,7 +84,7 @@ CREATE TABLE `cSessionInfo` (
 --
 
 INSERT INTO `cSessionInfo` (`open_id`, `uuid`, `skey`, `create_time`, `last_visit_time`, `session_key`, `user_info`) VALUES
-('oEzcV0cksjpNoPekOfSq2V4wBpEQ', '49ca228d-2206-4be1-b1be-174f5a43c504', '619463026fe2924006f2eabf33b7b2ce23e930d9', '2018-10-20 14:52:03', '2018-10-20 16:04:31', 'zbuj7xjbjDIfXJIfOr9A4A==', '{\"openId\":\"oEzcV0cksjpNoPekOfSq2V4wBpEQ\",\"nickName\":\"Zack\",\"gender\":1,\"language\":\"en\",\"city\":\"\",\"province\":\"Kowloon City\",\"country\":\"Hong Kong\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/PpQLGH8O6Dic3aJUkwB8P7XCuSvYjhibcZEvHbicnCU57qUDg4Nh0wHtUdWK9biarVeZzicI0X6bRdkd5vwdzqyibd7A/132\",\"watermark\":{\"timestamp\":1540051470,\"appid\":\"wxd9ae4d926f15bee7\"}}');
+('oEzcV0cksjpNoPekOfSq2V4wBpEQ', '9b9a15c2-8402-47df-8797-af64e99c896f', '7e13ad8b9549ffdde3eac8e4436b596d6fc180ce', '2018-10-21 03:30:51', '2018-10-21 03:30:51', 'NGO5DBJnpyalyuGPh2VO5g==', '{\"openId\":\"oEzcV0cksjpNoPekOfSq2V4wBpEQ\",\"nickName\":\"Zack\",\"gender\":1,\"language\":\"en\",\"city\":\"\",\"province\":\"Kowloon City\",\"country\":\"Hong Kong\",\"avatarUrl\":\"https://wx.qlogo.cn/mmopen/vi_32/PpQLGH8O6Dic3aJUkwB8P7XCuSvYjhibcZEvHbicnCU57qUDg4Nh0wHtUdWK9biarVeZzicI0X6bRdkd5vwdzqyibd7A/132\",\"watermark\":{\"timestamp\":1540092649,\"appid\":\"wxd9ae4d926f15bee7\"}}');
 
 -- --------------------------------------------------------
 
@@ -97,7 +109,8 @@ INSERT INTO `favorites` (`id`, `comment_id`, `open_id`, `create_time`) VALUES
 (3, 6, 'oEzcV0cksjpNoPekOfSq2V4wBpEQ', '2018-10-20 23:44:49'),
 (4, 7, 'oEzcV0cksjpNoPekOfSq2V4wBpEQ', '2018-10-20 23:45:29'),
 (5, 8, 'oEzcV0cksjpNoPekOfSq2V4wBpEQ', '2018-10-20 23:45:51'),
-(6, 9, 'oEzcV0cksjpNoPekOfSq2V4wBpEQ', '2018-10-20 23:57:05');
+(6, 9, 'oEzcV0cksjpNoPekOfSq2V4wBpEQ', '2018-10-20 23:57:05'),
+(7, 3, 'oEzcV0cksjpNoPekOfSq2V4wBpEQ', '2018-10-21 11:31:26');
 
 -- --------------------------------------------------------
 
@@ -173,12 +186,12 @@ ALTER TABLE `movies`
 -- 使用表AUTO_INCREMENT `comments`
 --
 ALTER TABLE `comments`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
 --
 -- 使用表AUTO_INCREMENT `favorites`
 --
 ALTER TABLE `favorites`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 --
 -- 使用表AUTO_INCREMENT `movies`
 --
