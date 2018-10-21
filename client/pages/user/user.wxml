@@ -4,6 +4,7 @@
     <button class="unlogin-btn" open-type='getUserInfo' bindgetuserinfo='getUserInfo'>微信登录</button>
   </view>
   <view wx:else>
+    <view class='background'></view>
     <view class="my-user-info"> 
           <image src="{{ userInfo.avatarUrl }}"/>
           <view>{{ userInfo.nickName }}</view>

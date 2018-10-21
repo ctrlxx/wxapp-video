@@ -12,15 +12,15 @@
   "window":{
     "backgroundColor":"#F6F6F6",
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "看看侃侃电影",
-    "navigationBarTextStyle":"black"
+    "navigationBarBackgroundColor": "#d81e06",
+    "navigationBarTitleText": "TMOVIE",
+    "navigationBarTextStyle":"white"
   },
   "tabBar": {
-    "selectedColor": "#1296db",
+    "selectedColor": "#d81e06",
     "list": [{
       "pagePath": "pages/list/list",
-      "text": "首页",
+      "text": "热门",
       "iconPath": "images/hot.png",
       "selectedIconPath": "images/hot-d.png"
     },

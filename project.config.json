@@ -30,12 +30,12 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 1,
+			"current": 0,
 			"list": [
 				{
-					"id": -1,
+					"id": 0,
 					"name": "hotrank",
-					"pathName": "pages/hotrank/hotrank",
+					"pathName": "pages/list/list",
 					"query": ""
 				},
 				{
@@ -43,6 +43,12 @@
 					"name": "user",
 					"pathName": "pages/user/user",
 					"query": ""
+				},
+				{
+					"id": 2,
+					"name": "comments",
+					"pathName": "pages/comments/comments",
+					"query": "id=1"
 				}
 			]
 		}

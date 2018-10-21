@@ -105,14 +105,16 @@ App({
       success: () => {
         console.log('wx.checkSession success')
 
-        this.getUserInfo({
+        wx.getUserInfo({
           success: res => {
             userInfo = res.userInfo
+            console.log(success)
             success && success({
               userInfo
             })
           },
           fail: () => {
+            console.log(fail())
             fail && fail()
           }
         })

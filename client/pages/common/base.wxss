@@ -3,7 +3,6 @@
   margin: 120rpx 40rpx 0;
   padding-bottom: 40rpx;
   background-color: white;
-  border: 1rpx solid #E5E8EB;
   border-radius: 10rpx;
 }
 

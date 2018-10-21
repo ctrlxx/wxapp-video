@@ -3,9 +3,9 @@
 .movie-card {
   display: flex;
   width: 660rpx;
-  margin: 20rpx;
-  border: 1px solid #E6E7E8;
+  margin: 25rpx;
   background-color: white;
+  border-radius: 15rpx;
 }
 
 .movie-card image {

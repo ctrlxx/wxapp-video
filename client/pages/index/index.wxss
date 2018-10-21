@@ -9,12 +9,28 @@ page {
 .container {
   margin-top: 60rpx;
 }
-
+.background{
+  position: absolute;
+  margin: -150rpx 0 0 0;
+  z-index: -10;
+  height: 300rpx;
+  width: 750rpx;
+  background: #d81e06;
+  border-radius: 50rpx;
+}
 .container image {
-  height: 750rpx
+  height: 750rpx;
+  width: 400rpx;
+  border-radius: 15rpx;
 }
 
 .container .title {
   margin-top: 20rpx;
   font-size: 1.2em;
+}
+
+.container .reference{
+   margin-top: 20rpx;
+   font-size: 0.8em;
+   opacity: 0.8;
 }

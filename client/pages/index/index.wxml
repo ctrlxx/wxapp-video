@@ -1,9 +1,12 @@
 <!--index.wxml-->
 <view class="container">
   <block wx:if="{{movie}}">
+    <view class='background'></view>
     <navigator url="{{'/pages/detail/detail?id=' + movie.id}}">
       <image src="{{movie.image}}" mode="aspectFit" />
     </navigator>
     <view class="title">{{movie.title}}</view>
+    <view class='reference'>{{movie.category}}</view>
+    <view class='reference'>TMOIVE推荐</view>
   </block>
 </view>

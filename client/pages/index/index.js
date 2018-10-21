@@ -12,7 +12,7 @@ Page({
       success: ({ data }) => {
         console.log(data)
         const movie = {
-          ...data.data
+          ...data.data.referee_movie
         }
         this.setData({ movie })
       }
