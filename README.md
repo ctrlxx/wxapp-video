@@ -2,13 +2,13 @@
 
 一款电影影评小程序项目。该项目允许用户对时下最热门的电影撰写影评。除此之外，用户还可收藏并分享电影影评。
 
-交互图  
+## 交互图  
 ![png](/readme_image/tmovie.png)
 
-实际交互  
-![gif](/read_image/tmovie.gif)
+## 实际交互  
+![gif](/readme_image/tmovie.gif)
 
-##Wafer2 快速开发
+## Wafer2 快速开发
 
 **登录接口：https://github.com/tencentyun/wafer2-quickstart/issues/10**
 
